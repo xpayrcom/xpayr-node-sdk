@@ -5,7 +5,7 @@
 
 Official Node.js SDK for creating XPayr payment sessions, verifying webhooks, and integrating direct-to-wallet crypto checkout.
 
-> **Status:** Developer preview · v0.1
+> **Status:** Public beta · v0.1.0
 
 ## Purpose
 
