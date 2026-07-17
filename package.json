@@ -2,6 +2,7 @@
   "name": "@xpayr/node-sdk",
   "version": "0.1.0",
   "description": "Official Node.js SDK for the XPayr Merchant API.",
+  "sideEffects": false,
   "type": "module",
   "main": "./src/index.js",
   "types": "./index.d.ts",
@@ -21,5 +22,12 @@
   "keywords": ["xpayr", "crypto-payments", "payment-gateway", "usdt", "usdc", "webhooks"],
   "license": "MIT",
   "repository": {"type": "git", "url": "git+https://github.com/xpayrcom/xpayr-node-sdk.git"},
-  "homepage": "https://xpayr.com/developers"
+  "homepage": "https://xpayr.com/developers",
+  "bugs": {
+    "url": "https://github.com/xpayrcom/xpayr-node-sdk/issues"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  }
 }

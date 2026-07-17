@@ -20,7 +20,13 @@ A small, dependency-light Node.js client for XPayr Merchant API v1 with typed de
 ## Quick start
 
 ```bash
-npm install
+npm install @xpayr/node-sdk
+```
+
+For repository development:
+
+```bash
+npm ci
 npm test
 ```
 
