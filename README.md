@@ -32,6 +32,12 @@ npm test
 
 Use an XPayr test key before live credentials. Never expose `sk_test_*`, `sk_live_*`, agent keys, webhook secrets, or wallet private keys in browser code or commits.
 
+## Compatibility
+
+- Runtime requirement: Node.js 18 or newer (`package.json` enforces `>=18`)
+- Verified in CI on Node.js 18, 20, and 22
+- Package ships ESM entry points with bundled TypeScript declarations
+
 ## Usage
 
 ```js
